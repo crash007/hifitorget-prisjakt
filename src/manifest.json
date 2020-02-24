@@ -1,0 +1,61 @@
+{
+  "manifest_version": 2,
+  "name": "Hifitorget prisjakt",
+  "short_name": "HIfiJakt",
+  "version": "0.1",
+  "description": "",
+  "author": "crash007",
+  "permissions": [
+    "https://*.google.se/",
+    "http://*.google.se/"
+  ],
+  
+  "icons": {
+    "16": "data/icon_16x16.png",
+    "32": "data/icon_32x32.png",
+    "48": "data/icon_48x48.png",
+    "128": "data/icon_128x128.png"
+  },
+  "background": {
+    "scripts": [
+      "libs/jquery-3.3.1.min.js",    
+      "background.js"
+    ]
+  },
+  "browser_action": {
+   
+    "default_icon": {
+      "16": "data/icon_16x16.png",
+      "32": "data/icon_32x32.png",
+      "48": "data/icon_48x48.png",
+      "128": "data/icon_128x128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "frontend.css"
+      ],
+      "matches": [
+        "https://*.hifitorget.se/*",
+        "http://*.hifitorget.se/"
+	
+      ],
+      "js": [
+        "libs/jquery-3.3.1.min.js",    
+        "frontend.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{182738d2-c07b-4c5d-9797-bf42adbb9c88}"
+    }
+  },
+  "web_accessible_resources": [
+    "logo_aftonplusset_plus.png"
+  ]
+
+}
+
