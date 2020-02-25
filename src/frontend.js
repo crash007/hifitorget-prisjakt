@@ -8,18 +8,19 @@ jQuery(document).ready(function () {
 		chrome.runtime.sendMessage(
 			{contentScriptQuery: "search", itemId: "prisjakt "+heading},
 			link => {
-				console.log(link)
+				console.log(link);
 
 				chrome.runtime.sendMessage({contentScriptQuery: "retrive", url: link},
 					result => {
 						var parser = new DOMParser();
 						var htmlDoc = parser.parseFromString(result, "text/html");
 
-						console.log($(htmlDoc).find("head"));
 						let price = $(htmlDoc).find('meta[property="og\\:amount"]').attr('content');
 						let title = $(htmlDoc).find('meta[property="og\\:title"]').attr('content');
 						let url = $(htmlDoc).find('meta[property="og\\:url"]').attr('content');
-						$('<h3><strong>Prisjakt</strong></h3><p class="kategoriplats">'+title+'</p><p class="kategoriplats">Pris: '+ price+'  <a href="'+url+'" target="_blank">Länk</a></p>').insertAfter('p.kategoriplats');
+						let image = $(htmlDoc).find('meta[property="og\\:image"]').attr('content');
+
+						$('<div class="well"><div class="row"><div class="col-xs-6 col-sm-6"><h3>Prisjakt</h3><p class="kategoriplats">'+title+'</p><p class="kategoriplats">Pris: <b>'+ price+':-</b> </p> <p><a class="kategoriplats" href="'+url+'" target="_blank">Länk</a></p></div><div class="col-xs-6 col-sm-6"><img src="'+image+'"></img></div></div></div>').insertAfter('p.kategoriplats');
 
 					}
 				);

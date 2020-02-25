@@ -2,44 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a81d340-aeb6-46bb-a7c3-0c0e9090178f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_locales/en/messages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_locales/sv/messages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/background.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/icon_128x128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/icon_128x128.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/icon_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/icon_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/icon_48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libs/compression.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libs/lz-string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo_aftonplusset_plus.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/options.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/options.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popup.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>axiv</find>
-      <find>del</find>
-      <find>chrome</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="4480" />
-    <option name="y" value="-2" />
-    <option name="width" value="1920" />
-    <option name="height" value="1202" />
   </component>
   <component name="ProjectId" id="1YFtUogeIoAU585L3SGk0NlRjHa" />
   <component name="ProjectViewState">
@@ -54,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561387246432" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/st.nu-filer/produkt.php?pu=85516.1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -87,7 +71,8 @@
       <workItem from="1557318229137" duration="2499000" />
       <workItem from="1561038307583" duration="4400000" />
       <workItem from="1561387966847" duration="2067000" />
-      <workItem from="1582550189625" duration="7739000" />
+      <workItem from="1582550189625" duration="8712000" />
+      <workItem from="1582579921080" duration="5949000" />
     </task>
     <servers />
   </component>
@@ -103,6 +88,20 @@
         <option value="1" />
       </list>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2605" y="123" width="1502" height="1013" key="CommitChangelistDialog2" timestamp="1582631018499">
+      <screen x="0" y="27" width="7280" height="1413" />
+    </state>
+    <state x="2605" y="123" width="1502" height="1013" key="CommitChangelistDialog2/0.27.7280.1413@0.27.7280.1413" timestamp="1582631018499" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582615709602">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1582615709602" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582579920960">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582579920959" />
   </component>
   <component name="masterDetails">
     <states>
