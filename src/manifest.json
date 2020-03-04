@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Hifitorget prisjakt",
   "short_name": "HifiJakt",
-  "version": "0.1",
+  "version": "0.21",
   "description": "",
   "author": "crash007",
   "permissions": [
@@ -13,7 +13,9 @@
   ],
   
   "icons": {
-
+    "72": "icons/icon-72x72.png",
+    "96": "icons/icon-96x96.png",
+    "128": "icons/icon-128x128.png"
   },
   "background": {
     "scripts": [
@@ -24,7 +26,9 @@
   "browser_action": {
    
     "default_icon": {
-
+      "72": "icons/icon-72x72.png",
+      "96": "icons/icon-96x96.png",
+      "128": "icons/icon-128x128.png"
     }
   },
   "content_scripts": [

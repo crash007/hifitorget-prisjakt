@@ -1,7 +1,7 @@
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
         if (request.contentScriptQuery == "search") {
-            //var url = "https://duckduckgo.com/html/?q=" +
+
             var url = "https://google.se/search?q=" +
                 encodeURIComponent(request.itemId);
             fetch(url)
@@ -18,7 +18,21 @@ chrome.runtime.onMessage.addListener(
         }
 
         if (request.contentScriptQuery == "retrive") {
+            console.log(request.url);
+            fetch(request.url)
+                .then(response => response.text())
+                .then(result => {
+                    console.log(result);
+                    sendResponse(result)
+                })
+                .catch(error => {
+                    console.log(error)
+                })
+            return true;  // Will respond asynchronously.
+        }
 
+        if (request.contentScriptQuery == "retriveHistory") {
+            console.log(request.url);
             fetch(request.url)
                 .then(response => response.text())
                 .then(result => {
