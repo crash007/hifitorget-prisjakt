@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Hifitorget prisjakt",
   "short_name": "HifiJakt",
-  "version": "0.21",
+  "version": "0.22",
   "description": "",
   "author": "crash007",
   "permissions": [
