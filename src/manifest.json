@@ -3,7 +3,7 @@
   "name": "Hifitorget prisjakt",
   "short_name": "HifiJakt",
   "version": "0.22",
-  "description": "",
+  "description": "Hämtar och visar priset från Prisjakt",
   "author": "crash007",
   "permissions": [
     "https://*.google.se/",
@@ -47,7 +47,7 @@
   ],
   "browser_specific_settings": {
     "gecko": {
-      "id": "{182738d2-c07b-4c5d-0797-bf42adbb9c88}"
+      "id": "{182738d2-c07b-115d-0797-bf42adbb9c88}"
     }
   }
 
