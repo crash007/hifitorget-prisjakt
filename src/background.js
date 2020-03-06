@@ -1,8 +1,9 @@
+const host = "https://google.se";
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
         if (request.contentScriptQuery == "search") {
 
-            var url = "https://google.se/search?q=" +
+            var url = host+"/search?q=" +
                 encodeURIComponent(request.itemId);
             fetch(url)
                 .then(response => response.text())
@@ -49,6 +50,13 @@ chrome.runtime.onMessage.addListener(
 );
 
 function parseSearch(result){
-    return $(result).find('a[href*="prisjakt.nu"]').attr('href');
+    console.log(result);
+    let url = $(result).find('a[href*="prisjakt.nu"]').attr('href');
+    //on android url is relative. google cache?
+    if(url.startsWith("/url?q")){
+        return host+url;
+    }else{
+        return url;
+    }
 }
 

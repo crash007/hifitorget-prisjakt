@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a81d340-aeb6-46bb-a7c3-0c0e9090178f" name="Default Changelist" comment="well &#10;Image from prisjakt">
+      <change afterPath="$PROJECT_DIR$/src/frontend.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/background.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hi.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/hi.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/icon-128x128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons/icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/jquery-3.3.1.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +33,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561387246432" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../c2b/dev/customer-installed-base-service/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -67,7 +76,9 @@
       <workItem from="1582878816032" duration="602000" />
       <workItem from="1582899335224" duration="29000" />
       <workItem from="1583314459403" duration="659000" />
-      <workItem from="1583315799909" duration="1500000" />
+      <workItem from="1583315799909" duration="5502000" />
+      <workItem from="1583394914064" duration="2288000" />
+      <workItem from="1583501737495" duration="2931000" />
     </task>
     <task id="LOCAL−00001" summary="well &#10;Image from prisjakt">
       <created>1582631051497</created>
@@ -100,6 +111,10 @@
       <screen x="0" y="27" width="7280" height="1413" />
     </state>
     <state x="2605" y="123" width="1502" height="1013" key="CommitChangelistDialog2/0.27.7280.1413@0.27.7280.1413" timestamp="1582631051366" />
+    <state x="3800" y="189" width="1517" height="781" key="DiffContextDialog" timestamp="1583505378446">
+      <screen x="1920" y="0" width="3440" height="1440" />
+    </state>
+    <state x="3800" y="189" width="1517" height="781" key="DiffContextDialog/1920.0.3440.1440/5360.0.1920.1200/0.27.1920.1053@1920.0.3440.1440" timestamp="1583505378446" />
     <state x="183" y="310" width="967" height="596" key="FileChooserDialogImpl" timestamp="1583315108767">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

@@ -22,7 +22,7 @@ jQuery(document).ready(function () {
 						if(price == "null"){
 							price = '-';
 						}
-						$('<div class="well"><div class="row"><div class="col-xs-6 col-sm-6"><h3>Prisjakt</h3><p class="kategoriplats">'+title+'</p><p class="kategoriplats">Pris: <b>'+ price+'</b> </p> <p><a class="kategoriplats" href="'+url+'" target="_blank">Länk</a></p></div><div class="col-xs-6 col-sm-6"><img src="'+image+'"></img></div></div></div>').insertAfter('p.kategoriplats');
+						$('<div class="well"><div class="row"><div class="col-xs-6 col-sm-6"><h3>Prisjakt</h3><p class="kategoriplats">'+title+'</p><p class="kategoriplats">Pris: <b>'+ price+'</b> </p> <p><a class="kategoriplats" href="'+url+'" target="_blank">Länk</a></p></div><div class="col-xs-6 col-sm-6"><img class=\"prisjakt-img\" src="'+image+'"></img></div></div></div>').insertAfter('p.kategoriplats');
 
 					}
 				);
